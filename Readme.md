@@ -1,6 +1,14 @@
 # Intégration de l'authentification Azure AD B2C avec React et FastAPI
 
-Ce projet montre comment intégrer l'authentification Azure Active Directory B2C (Azure AD B2C) dans une application **React** en frontend et un **FastAPI** en backend, en utilisant **JWT** pour sécuriser les échanges entre les deux parties.
+Ce projet démontre l'intégration de l'authentification Azure Active Directory B2C (Azure AD B2C) dans une application React en frontend et un FastAPI en backend, en utilisant JWT pour sécuriser les échanges entre les deux parties. Pour m'inspirer lors de la réalisation de ce projet, je me suis appuyé sur les documentations suivantes :
+
+Vue d'ensemble d'Azure Active Directory B2C : Cette page offre une présentation complète d'Azure AD B2C, expliquant ses fonctionnalités et ses avantages.
+https://learn.microsoft.com/fr-fr/azure/active-directory-b2c/overview
+
+Documentation Azure Active Directory B2C quickstart-single-page-app
+https://learn.microsoft.com/fr-fr/azure/active-directory-b2c/quickstart-single-page-app
+
+N'hésitez pas à explorer ces ressources pour plus d'informations, car il y a énormément de contenue pour apprendre.
 
 ## Table des matières
 
@@ -56,7 +64,7 @@ Ce projet démontre l'intégration d'Azure AD B2C dans une application utilisant
 6. Prends note de l'**Application ID** et du **Directory ID**, tu en auras besoin dans la suite.
 
 **exemple :**
-![alt text](<Exposer l'api.png>)
+![image](https://github.com/user-attachments/assets/453b3e66-0378-4825-b902-d5efe21ea2c0)
 
 **Frontend - Application React (SPA) :**
 
@@ -259,4 +267,4 @@ Pour tester l'application, suivez ces étapes :
 5. **Vérifier la réponse Backend** :
    - Après avoir cliqué sur "Envoyer au Backend", si la requête a bien été envoyée, vous verrez les informations retournées par le backend dans la section "Réponse du backend". Cela pourrait inclure des détails sur l'utilisateur authentifié récupérés via l'API.
 
-![alt text](test.png)
+![image](https://github.com/user-attachments/assets/89420e62-4241-4d69-b21c-18b73a73d0ed)
