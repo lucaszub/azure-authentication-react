@@ -1,0 +1,59 @@
+/* Styles généraux */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Titres */
+h1 {
+  color: #333;
+  text-align: center;
+}
+
+/* Conteneur principal */
+.app-container {
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Boutons */
+button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  background-color: #0078d4;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #005a9e;
+}
+
+/* Zone d'information */
+.account-info,
+.backend-response {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.account-info {
+  background-color: #f0f0f0;
+}
+
+.backend-response {
+  background-color: #e0f7e0;
+  color: #2c6e2f;
+}
