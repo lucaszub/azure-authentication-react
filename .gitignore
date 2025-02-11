@@ -1,3 +1,5 @@
 back/config.py
 mon-projet-react/src/authConfig.js
 
+venv/
+__pycache__/

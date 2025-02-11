@@ -56,7 +56,7 @@ Ce projet démontre l'intégration d'Azure AD B2C dans une application utilisant
 6. Prends note de l'**Application ID** et du **Directory ID**, tu en auras besoin dans la suite.
 
 **exemple :**
-![alt text](image-1.png)
+![alt text](<Exposer l'api.png>)
 
 **Frontend - Application React (SPA) :**
 
@@ -259,4 +259,4 @@ Pour tester l'application, suivez ces étapes :
 5. **Vérifier la réponse Backend** :
    - Après avoir cliqué sur "Envoyer au Backend", si la requête a bien été envoyée, vous verrez les informations retournées par le backend dans la section "Réponse du backend". Cela pourrait inclure des détails sur l'utilisateur authentifié récupérés via l'API.
 
-![alt text](image-2.png)
+![alt text](test.png)
